@@ -1,6 +1,5 @@
 <div align="center">
-  ![Sem título512](https://github.com/Luizboaventura1/fast-editor/assets/122652168/27cd0988-129c-4424-9f63-674d873ece6f)
-
+ <img width="200" src="https://github.com/Luizboaventura1/fast-editor/assets/122652168/27cd0988-129c-4424-9f63-674d873ece6f" />
 </div>
 
 <h1 align="center">Fast Editor</h1>
