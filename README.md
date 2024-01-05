@@ -1,7 +1,30 @@
-# Vue 3 + Vite
+<div align="center">
+  ![Sem título512](https://github.com/Luizboaventura1/fast-editor/assets/122652168/27cd0988-129c-4424-9f63-674d873ece6f)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+</div>
 
-## Recommended IDE Setup
+<h1 align="center">Fast Editor</h1>
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<p align="center">Fast Editor formats your texts quickly and easily, and with a modern interface.</p>
+
+## License 📜
+
+- [MIT](./LICENSE)
+
+## 🛠 Technologies
+
+- [Vue.js 3](https://vuejs.org)
+- [Tailwind css](https://tailwindcss.com)
+- [Scss](https://sass-lang.com)
+
+## How to Contribute 🚀
+
+1. **Fork the Repository:**
+   - Fork this repository by clicking the "Fork" button in the top right corner of this page. This will create a copy of the repository in your GitHub account.
+
+2. **Clone the Repository:**
+   - Clone the forked repository to your local development environment.
+
+   ```bash
+   git clone git@github.com:Luizboaventura1/fast-editor.git
+   cd fast-editor
