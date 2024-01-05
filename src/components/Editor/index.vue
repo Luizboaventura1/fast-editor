@@ -16,12 +16,6 @@
       <ButtonTemplate @click="bulletList" size="30"
         ><OrderedListIcon size="17"
       /></ButtonTemplate>
-      <button
-        class="text-white"
-        @click="editor.chain().focus().toggleHeading({ level: 1 }).run()"
-      >
-        teste
-      </button>
     </Toolbar>
     <DividerDefault />
     <div class="overflow-y-auto">
