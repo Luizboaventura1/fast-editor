@@ -1,6 +1,6 @@
 {
-  "name": "app",
-  "private": true,
+  "name": "fast-editor",
+  "private": false,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
