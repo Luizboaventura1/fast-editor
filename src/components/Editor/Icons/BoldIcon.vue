@@ -8,6 +8,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 24 24"
     xml:space="preserve"
+    data-hydrated-width="true"
   >
     <g>
       <path

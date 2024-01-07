@@ -9,6 +9,7 @@
     viewBox="0 0 24 24"
     style="enable-background: new 0 0 512 512"
     xml:space="preserve"
+    data-hydrated-width="true"
   >
     <g>
       <g>

@@ -9,6 +9,7 @@
     viewBox="0 0 48 48"
     style="enable-background: new 0 0 512 512"
     xml:space="preserve"
+    data-hydrated-width="true"
   >
     <g transform="matrix(-1,0,0,1,48,0)">
       <path

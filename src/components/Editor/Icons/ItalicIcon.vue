@@ -10,6 +10,7 @@
     style="enable-background: new 0 0 512 512"
     xml:space="preserve"
     fill-rule="evenodd"
+    data-hydrated-width="true"
   >
     <g>
       <path

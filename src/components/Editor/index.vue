@@ -3,6 +3,7 @@
     :style="`background-color: ${bgEditor};height: ${props.height}px;width: ${props.width}px;`"
     class="h-[500px] w-[600px] ring-1 grid grid-rows-[auto,auto,1fr] bg-bgPrimary ring-borderColor overflow-hidden rounded-md"
     :class="editorBackground"
+    data-hydrated-width="true"
   >
     <Toolbar>
       <ButtonTemplate @click="bold" size="30"
