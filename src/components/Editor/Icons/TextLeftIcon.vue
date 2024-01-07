@@ -1,6 +1,6 @@
 <template>
   <svg
-    :style="`width: ${props.size};height: ${props.size};`"
+    :style="`width:${props.size};height:${props.size};`"
     class="fill-primaryColor focus:fill-blue-600 outline-none"
     tabindex="1"
     xmlns="http://www.w3.org/2000/svg"

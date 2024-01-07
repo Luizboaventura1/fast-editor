@@ -1,6 +1,6 @@
 <template>
   <button
-    :style="`width: ${props.size ? props.size : 0}px;height: ${props.size ? props.size : 0}px;`"
+    :style="`width:${props.size ? props.size : 0}px;height:${props.size ? props.size : 0}px;`"
     class="hover:bg-bgSecondary rounded flex justify-center items-center"
     data-hydrated-width="true"
   >
