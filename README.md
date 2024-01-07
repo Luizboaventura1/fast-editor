@@ -6,7 +6,8 @@
 
 <p align="center">Fast Editor formats your texts quickly and easily, and with a modern interface.</p>
 
-![image](https://github.com/Luizboaventura1/fast-editor/assets/122652168/7a8aadf8-3a24-4347-81bc-22ad892d2310)
+![image](https://github.com/Luizboaventura1/fast-editor/assets/122652168/e51a6ac2-3e5d-4031-95e3-d61f59f335c9)
+
 
 
 ## License 📜
