@@ -8,7 +8,35 @@
 
 ![image](https://github.com/Luizboaventura1/fast-editor/assets/122652168/e51a6ac2-3e5d-4031-95e3-d61f59f335c9)
 
+## How to use?
 
+```javascript
+<template>
+  <div class="w-screen h-screen flex items-center justify-center bg-bgSecondary px-4">
+    <Editor @getHtml="(val) => html = val" placeholder-f="Adicionar descrição..." />
+  </div>
+</template>
+
+<script setup>
+import Editor from "./components/Editor/index.vue"
+import { ref, watchEffect } from "vue";
+
+// use a reactive variable
+let html = ref("")
+</script>
+```
+### Get the generated html
+```javascript
+// use @getHtml to get the generated html
+@getHtml="(val) => html = val"
+```
+### Props
+```html
+height="000px" default 100%
+width="000px" default 100%
+placeholder-f="Your description" default  "Descrição..."
+editorBackground="#000" default #121214
+```
 
 ## License 📜
 
