@@ -1,7 +1,7 @@
 <template>
   <div
     :style="`background-color:${bgEditor};height:${props.height}px;width:${props.width}px;`"
-    class="h-[500px] w-[600px] ring-1 grid grid-rows-[auto,auto,1fr] bg-bgPrimary ring-borderColor overflow-hidden rounded-md"
+    class="h-full w-full ring-1 grid grid-rows-[auto,auto,1fr] bg-bgPrimary ring-borderColor overflow-hidden rounded-md"
     :class="editorBackground"
     data-hydrated-width="true"
   >
@@ -52,37 +52,6 @@
     </Toolbar>
     <DividerDefault />
     <div class="overflow-y-auto">
-      <floating-menu
-        :editor="editor"
-        :tippy-options="{ duration: 100 }"
-        v-if="editor"
-      >
-        <FloatingOptionsMenu>
-          <ButtonTemplate @click="bold" size="24"
-            ><BoldIcon size="20"
-          /></ButtonTemplate>
-
-          <ButtonTemplate @click="italic" size="24"
-            ><ItalicIcon size="16"
-          /></ButtonTemplate>
-
-          <ButtonTemplate @click="bulletList" size="24"
-            ><OrderedListIcon size="16"
-          /></ButtonTemplate>
-
-          <ButtonTemplate @click="h1" size="30"
-            ><H1Icon size="20"
-          /></ButtonTemplate>
-
-          <ButtonTemplate @click="h2" size="30"
-            ><H2Icon size="20"
-          /></ButtonTemplate>
-
-          <ButtonTemplate @click="h3" size="30"
-            ><H3Icon size="20"
-          /></ButtonTemplate>
-        </FloatingOptionsMenu>
-      </floating-menu>
       <editor-content :editor="editor" fontSize="16" />
     </div>
   </div>
@@ -91,15 +60,14 @@
 <script setup>
 import Toolbar from "./Toolbar/index.vue";
 import ButtonTemplate from "./Buttons/ButtonTemplate.vue";
-import { computed, onMounted, watch, watchEffect } from "vue";
+import { computed, watch, watchEffect } from "vue";
 import BoldIcon from "./Icons/BoldIcon.vue";
 import ItalicIcon from "./Icons/ItalicIcon.vue";
 import BulletListIcon from "./Icons/BulletListIcon.vue";
 import DividerDefault from "./Dividers/DividerDefault.vue";
-import { useEditor, EditorContent, FloatingMenu } from "@tiptap/vue-3";
+import { useEditor, EditorContent } from "@tiptap/vue-3";
 import StarterKit from "@tiptap/starter-kit";
 import { ref } from "vue";
-import FloatingOptionsMenu from "./FloatingOptionsMenu/index.vue";
 import Document from "@tiptap/extension-document";
 import Underline from "@tiptap/extension-underline";
 import UnderlineIcon from "./Icons/UnderlineIcon.vue";
